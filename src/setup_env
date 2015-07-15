@@ -1,0 +1,8 @@
+#!/bin/bash
+
+
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/realtime/lib
+
+/sbin/insmod /usr/realtime/modules/rtai_hal.ko
+/sbin/insmod /usr/realtime/modules/rtai_lxrt.ko
+
